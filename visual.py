@@ -45,10 +45,15 @@ def main():
             
             if values[0][0] == 'Bubble':
                 sort = bubblesort.bubbleSort(arr)
+                sortmethod = 'Bubble'
+
             elif values[0][0] == 'Insertion':
                 sort = insertionsort.insertionSort(arr)
+                sortmethod = 'Insertion'
+
             else:
                 sort = selectionsort.selectionSort(arr)
+                sortmethod = 'Selection'
             
             timeout=10
 
@@ -59,7 +64,8 @@ def main():
                 graph.Erase()
                 draw_bars(graph, partially_sorted_list)
                 timeout = int(10)
-            sg.Popup('Sorting done.')
+            sg.Popup(f' {sortmethod} sort done.', )
+            
 
 
 
