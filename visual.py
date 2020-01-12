@@ -18,7 +18,9 @@ def main():
 
     # Window layout
     graph = sg.Graph(GRAPH_SIZE, (0,0), DATA_SIZE)
-    layout = [[graph], [sg.Button('Select sorting method')]]
+    layout = [[sg.Text('Visualization', size=(30, 1), font=("Helvetica", 25))],
+            [graph],
+            [sg.Button('Select sorting method')]]
             
 
     window = sg.Window('Algorithm Visualizer', layout)
