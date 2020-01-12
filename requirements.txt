@@ -1,0 +1,4 @@
+PySide2==5.14.0
+PySimpleGUI==4.15.1
+PySimpleGUIQt==0.31.0
+shiboken2==5.14.0
