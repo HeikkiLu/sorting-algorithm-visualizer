@@ -35,7 +35,7 @@ def main():
             random.shuffle(arr)
             draw_bars(graph, arr)
             l2 = [[sg.T('Choose sorting method')],
-            [sg.Listbox(['Bubble', 'Insert', 'Selection'], size=(12,3))],
+            [sg.Listbox(['Bubble', 'Insertion', 'Selection'], size=(12,3))],
             [sg.Ok()],]
             w2 = sg.Window('Choose sorting method', l2)
             button, values = w2()
