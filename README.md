@@ -6,7 +6,7 @@ This program visualizes sorting algorithm by using pysimplegui.
 * Setup virtual environment
 * Activate it
 * Install required modules from requirements.txt with ``` pip install -r /path/to/requirements.txt ```
-* run through cmd with ``` python visual.py ```
+* Run through cmd with ``` python visual.py ```
 
 ![Sorting visualizer Demo](demo.gif)
 
