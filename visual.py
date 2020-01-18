@@ -14,7 +14,7 @@ sg.theme_background_color('#8F90A0')
 def draw_bars(graph, items):
     for i, item in enumerate(items):
         graph.DrawRectangle(top_left=(i * BAR_SPACING + EDGE_OFFSET, item),
-                            bottom_right=(i * BAR_SPACING + EDGE_OFFSET + BAR_WIDTH, 0), fill_color='#B56089')
+                            bottom_right=(i * BAR_SPACING + EDGE_OFFSET + BAR_WIDTH, 0), fill_color='#D99EA2')
 
 def main():
     # List to sort
