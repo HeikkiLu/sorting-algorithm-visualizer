@@ -1,7 +1,11 @@
 # Sorting visualizer
 This program visualizes sorting algorithm by using pysimplegui.
 
-Run "visual.py" through your cmd to try it yourself.
+## How to run
+* Setip virtual environment
+* Activate it
+* Install required modules from requirements.txt with ``` pip install -r /path/to/requirements.txt ```
+* run through cmd with ``` python visual.py ```
 
 ![Sorting visualizer Demo](demo.gif)
 
